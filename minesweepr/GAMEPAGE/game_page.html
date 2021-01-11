@@ -1,0 +1,57 @@
+<!--
+最後更新日期:2020-12-16
+最後更新人員:施政廷 
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>踩地雷</title>
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="stylesheet" type="text/css" href="gird_text.css">
+    <link rel="stylesheet" type="text/css" href="background.css">
+    <link rel="stylesheet" type="text/css" href="button.css">
+
+    <script src="level_define.js"></script>
+
+    
+    <script src="DOM_create_grid.js"></script>
+
+    <script src="seed_bomb.js"></script>
+
+    <script src="grid_direction_define.js"></script>
+    <script src="return_direction.js"></script>
+
+    <script src="grid_array.js"></script> 
+
+    <script src="display_number.js"></script>
+    <script src="is_bomb_or_number.js"></script>
+    <script src="grid_listener.js"></script>
+
+    <script src="bomb_and_time.js"></script>
+
+    <script src="check_result.js"></script>
+
+    <script src="main.js"></script> 
+</head>
+
+<body>
+    <table id="table" oncontextmenu="return false">
+        <thead> 
+            <tr><td  id = bombNumPlace style="text-align: center;" class = bombNum_and_record>剩餘炸彈:10</td>
+                <td id=timeRecordPlace style="text-align: center;"class = bombNum_and_record></td>
+            </tr>
+        </thead>
+        <tbody id="gameTable">
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><button onclick="location.href='../MAINPAGE/main_page.html'">BACK TO TITLE</button></td>
+                <td colspan="3"><button onclick="location.href='../BILLBOARDPAGE/billboard_page.html'">BILLBOARD</button></td>
+            </tr> 
+        </tfoot>
+    </table> 
+</body>
+
+</html>

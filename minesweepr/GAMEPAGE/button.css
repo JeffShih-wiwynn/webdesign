@@ -1,0 +1,9 @@
+tfoot td{
+    text-align: center; 
+}
+tfoot button{ 
+    font-size: .3em;
+    border-radius: 10px;
+    background-color: rgb(192, 191, 191);
+    outline: none;
+}

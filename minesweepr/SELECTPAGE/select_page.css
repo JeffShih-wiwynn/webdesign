@@ -1,0 +1,54 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr {
+    width: 10px;
+    height: 5px;
+}
+
+button {
+    margin-left: auto;
+    width: 20em;
+    height: 4em;
+    border-radius: 10px;
+    background-color: rgb(173, 173, 172);
+    border-color: rgb(0, 0, 0);
+    transition: .4s;
+}
+
+button:hover {
+    margin-left: auto;
+    width: 25em;
+    height: 6em;
+    border-radius: 30px;
+    background-color: rgb(117, 117, 117);
+    border-color: rgb(0, 0, 0); 
+}
+
+.title {
+    font-family: monospace, sans-serif;
+    font-size: 5em;
+    -webkit-text-stroke: 5px black;
+    color: rgb(175, 175, 175);
+}
+.title:hover{ 
+    transition: .4s;  
+    font-size: 8em; 
+    transform:rotate(45);
+}
+
+body {
+    background-image: url("../GAMEPAGE/background.png");
+    background-size: 100px;
+    background-color: #cccccc;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: sans-serif, serif;
+    font-weight: bold;    
+}  

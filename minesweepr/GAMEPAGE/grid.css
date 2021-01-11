@@ -1,0 +1,63 @@
+/*
+最後更新日期:2020-12-09
+最後更新人員:施政廷 
+
+note1:  border:grid的邊框，solid為實心直線
+        (更改)width,height:grid的大小
+        background-color:grid背景顏色
+
+note2:  margin-left,margin-right:置中
+        border-collapse:td的格子是否連在一起
+*/ 
+
+/*note1*/
+.after_click{
+    border: 2px solid rgb(180, 178, 178); 
+    background-color: rgb(226, 223, 223);
+    box-sizing: border-box;
+}
+
+ 
+.before_click{  
+    background-color: rgb(226, 223, 223);
+    border-top:2px solid rgb(238, 235, 235);
+    border-left:2px solid rgb(238, 235, 235);
+    border-bottom: 2px solid rgb(78, 78, 78);
+    border-right: 2px solid rgb(78, 78, 78);  
+    box-sizing: border-box;
+} 
+
+.before_click:hover{  
+    background-color: rgb(190, 190, 190); 
+    border-color:2px solid rgb(177, 177, 177);
+    box-sizing: border-box;
+} 
+
+.flag{
+    color:red;
+    font-size: 30px;
+}
+ 
+/*note2*/
+table{  
+    margin-left: auto;
+    margin-right:auto;  
+    padding: 20px;
+}
+table td{
+    width:50px;
+    height:50px; 
+    border-spacing: 0px;
+}
+
+.bombNum_and_record{
+    font-size: 23px;
+    border: 2px solid rgb(218, 218, 218);
+    background-color: rgb(218, 218, 218);
+    border-collapse: separate;
+    border-radius: 20px;
+    filter: opacity(70%);
+    color:rgb(70, 70, 70);
+}
+ 
+ 

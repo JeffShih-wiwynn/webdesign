@@ -1,0 +1,55 @@
+/*
+最後更新日期:2020-12-09
+最後更新人員:施政廷 
+
+note1:  text-align:把數字置中
+        font-size:字體調成18px
+
+note2:  每個數字都有不同的顏色
+*/
+
+/*note2*/
+.gridNum1 {
+    color: blue;
+}
+
+.gridNum2 {
+    color: green;
+}
+
+.gridNum3 {
+    color: red;
+}
+
+.gridNum4 {
+    color: rgb(9, 24, 92);
+}
+
+.gridNum5 {
+    color: rgb(150, 87, 42);
+}
+
+.gridNum6 {
+    color: rgb(18, 134, 150);
+}
+
+.gridNum7 {
+    color: black;
+}
+
+.gridNum8 {
+    color: gray;
+}
+
+td img {    /*讓格子裡的圖片大小位置統一*/
+    width: 44px;
+    height:44px;  
+    vertical-align: middle;  
+    pointer-events: none;   /*讓圖片不會透過點擊觸發*/
+}
+ 
+/*note1*/
+tr td {
+    text-align: center;
+    font-size: 30px;
+}

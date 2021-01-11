@@ -1,0 +1,9 @@
+body{ 
+        background-image: url("background.png"); 
+        background-size: 100px; 
+        background-color: #cccccc; 
+        background-repeat:repeat;
+        background-attachment: fixed;
+        font-family: sans-serif,serif;
+        font-weight: bold;
+}
